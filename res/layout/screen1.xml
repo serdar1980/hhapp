@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+ 
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/inputFIO"
+            android:id="@+id/textView0" android:layout_gravity="left|center_vertical"/>
+    <EditText
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/fio"
+            android:inputType="textCapWords" 
+            android:layout_gravity="left|center_vertical"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/inputBith"
+            android:id="@+id/textView1" android:layout_gravity="left|center_vertical"/>
+    <EditText
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bithday"
+            android:inputType="date" 
+            android:layout_gravity="left|center_vertical"/>
+
+     <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/inputGender"
+            android:id="@+id/textView2" android:layout_gravity="left|center_vertical"/>
+
+     <Spinner
+         android:id="@+id/gender"
+         android:layout_width="167dp"
+         android:layout_height="wrap_content"
+         android:entries="@array/gender_arrays"
+         android:prompt="@string/inputGender"
+         />
+    
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/inputPosition"
+            android:id="@+id/textView3" android:layout_gravity="left|center_vertical"/>
+    <EditText
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/position"
+            android:inputType="textCapSentences" 
+            android:layout_gravity="left|center_vertical"/>
+    
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/inputSalary"
+            android:id="@+id/textView4" android:layout_gravity="left|center_vertical"/>
+    <EditText
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/salary"
+            android:inputType="numberSigned" 
+            android:layout_gravity="left|center_vertical"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/inputPhone"
+            android:id="@+id/textView5" android:layout_gravity="left|center_vertical"/>
+    <EditText
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/phone"
+            android:inputType="phone" 
+            android:layout_gravity="left|center_vertical"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/inpuMail"
+            android:id="@+id/textView6" android:layout_gravity="left|center_vertical"/>
+    <EditText
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            android:inputType="textEmailAddress" 
+            android:layout_gravity="left|center_vertical"/>
+     <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/answertxt"
+            android:id="@+id/textAnswer"
+            android:visibility="gone" 
+            android:layout_gravity="left|center_vertical"/>
+    <TextView
+            android:id="@+id/replayAnswerTxt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/noReplay"
+            android:visibility="gone" />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnSend"
+            android:id="@+id/btnSend"
+            android:onClick="goNewView" android:layout_gravity="left|center_vertical"/>
+ 
+</LinearLayout>

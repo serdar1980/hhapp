@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">hhApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="inputFIO">Введите ФИО</string>
+	<string name="inputBith">Дата рождения</string>
+	<string name="inputGender">Выберете пол</string>
+	<string name="inputPosition">Введите Должность</string>
+	<string name="inputSalary">Введите зарплату</string>
+	<string name="inputPhone">Введите телефон</string>
+	<string name="inpuMail">Введите Е-маил</string>
+	<string name="btnSend">Отправить резюме</string>
+	<string name="btnReplay">Отправить ответ</string>
+	<string name="answertxt">Ответ</string>
+	<string name="inputAnswer">Письмо соискателю</string>
+	<string name="noReplay">Роботодатель ни чего не ответил</string>
+	<string-array name="gender_arrays">
+	    <item>Женский</item>
+	    <item>Мужской</item>
+	</string-array>
+	
+	
+	<string name="fioTxt">ФИО:</string>
+	<string name="bithTxt">Дата рождения:</string>
+	<string name="genderTxt">Пол:</string>
+	<string name="positionTxt">Должность:</string>
+	<string name="salaryTxt">Зарплата:</string>
+	<string name="phoneTxt">Телефон:</string>
+	<string name="mailTxt">Почта:</string>
+				
+	
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+            android:id="@+id/fioTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fioTxt" />
+     <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bithTxt"
+            android:id="@+id/bithTxt" android:layout_gravity="left|center_vertical"/>    
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/genderTxt"
+            android:id="@+id/genderTxt" android:layout_gravity="left|center_vertical"/>    
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/positionTxt"
+            android:id="@+id/positionTxt" android:layout_gravity="left|center_vertical"/>    
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/salaryTxt"
+            android:id="@+id/salaryTxt" android:layout_gravity="left|center_vertical"/>    
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phoneTxt"
+            android:inputType="phone"
+            android:id="@+id/phoneTxt" android:layout_gravity="left|center_vertical"/>    
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mailTxt"
+            android:id="@+id/emailTxt" 
+            android:inputType="textEmailAddress"
+            android:layout_gravity="left|center_vertical"/>    
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/inputAnswer"
+            android:id="@+id/textView6" android:layout_gravity="left|center_vertical"/>
+    <EditText
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/answerTxt"
+            android:inputType="textMultiLine"
+    		android:lines="5"
+    		android:layout_gravity="left|center_vertical"/>
+    		
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnReplay"
+            android:id="@+id/btnReplay"
+            android:onClick="replay" android:layout_gravity="left|center_vertical"/> 
+      
+</LinearLayout>
